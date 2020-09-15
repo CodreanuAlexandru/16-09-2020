@@ -1,0 +1,8 @@
+a = input("Alege primul numar aleatoriu: ")
+b = input("Alege al 2 numar aleatoriu: ")
+print (int(a)+int(b))
+print (int(a)-int(b))
+print (int(a)//int(b))
+print (int(a)%int(b)) 
+print (int(a)*int(b)) 
+print (int(a)**int(b))
