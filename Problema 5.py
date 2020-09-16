@@ -1,0 +1,12 @@
+x = True
+y = False
+print (x , "and" , y , "=" , x and y)
+print (x, "and" , x , "=", x and x)
+print (y, "and",x,"=",y and x)
+print (y, "and",y,"=",y and y)
+print (x , "or" , y , "=" , x or y)
+print (x , "or" , x , "=" , x or x)
+print (y , "or" , x , "=" , y or x)
+print (y , "or" , y , "=" , y or y)
+print ("Not", x , "=" , not x )
+print ("Not", y , "=" , not y )
