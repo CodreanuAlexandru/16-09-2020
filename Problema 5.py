@@ -1,6 +1,12 @@
-
-print ("x    |y    |x and y|x or y|not x|not y|")
-print ("True |False|False  |True  |False|True |")
-print ("False|True |False  |True  |True |False|")
-print ("False|False|False  |False |True |True |")
-print ("True |True |True   |True  |False|False|")
+x = True
+y = False
+print (x , "and" , y , "=" , x and y)
+print (x, "and" , x , "=", x and x)
+print (y, "and",x,"=",y and x)
+print (y, "and",y,"=",y and y)
+print (x , "or" , y , "=" , x or y)
+print (x , "or" , x , "=" , x or x)
+print (y , "or" , x , "=" , y or x)
+print (y , "or" , y , "=" , y or y)
+print ("Not", x , "=" , not x )
+print ("Not", y , "=" , not y 
